@@ -1,0 +1,82 @@
+/*+++++++++++++++++++++++++++++++++++++++++++++++
++                                               +
++                                               +
++                                               +
++               (C) 2015 - 2016                 +
++       Kwik.Social and Ravinder Payal          +
++                                               +
++                                               +
++                                               +
++++++++++++++++++++++++++++++++++++++++++++++++++
++                                               +
++               Any one Can Use                 +
++                This CSS File                  +
++          But CITATION is required             +
++                                               +
++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.MODEL{
+	background:#fff;
+	position:fixed;
+	height:0px;
+	width:0px;
+        z-index:100;
+	transition:ease-in-out 0.1s;
+        transition-property:width,height;
+	-webkit-transition:ease-in-out 0.1s;
+        -webkit-transition-property:width,height;
+	-moz-transition:ease-in-out 0.1s;
+        -moz-transition-property:width,height;
+	-o-transition:ease-in-out 0.1s;
+        -o-transition-property:width,height;
+	top:0;
+}
+.MODEL .MODEL-CONT{
+	background:rgba(0,0,0,0.05);
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+.MODEL-BUTTON-BAR{
+	/*position:absolute;*/
+	bottom:10px;
+        height:50px;
+        padding:10px 10px 10px 10px;
+	width:calc(100% - 20px);
+}
+.MODEL-BUTTON-LINK{
+	color:#DA7071;
+	padding:1% 2.5% 1% 2.5%;
+	margin:1%;
+	font-size:22px;
+	cursor:pointer;
+}
+.MODEL-BUTTON-BUTTON{
+	background:#DA7071;
+	color:#fff;
+	padding:10px 15px 10px 15px;
+	margin-left:1%;
+	margin-right:1%;
+	cursor:pointer;
+	transition:all 1s ease-in-out;
+}
+.MODEL-BUTTON-BUTTON:hover{
+box-shadow: black 0px 0px 27px 0.21px inset;
+}
+.MODEL-BUTTON-BUTTON:focus{
+box-shadow: black 0px 0px 20px 0.21px inset;
+}
+.MODEL-MESSAGE{
+	vertical-align:middle;
+    text-align:center;
+    display:block;
+	color:#666;
+	height:calc(100% - 60px);
+	font-size:36px;
+}
+.MODEL-EXIT-BUTTON{
+	font-size:40px;
+	right:1%;
+	position:absolute;
+	color:#DA7071;
+}
