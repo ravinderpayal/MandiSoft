@@ -1,0 +1,69 @@
+[
+    {
+        "name": "php-on-couch/php-on-couch",
+        "version": "2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHP-on-Couch/PHP-on-Couch.git",
+            "reference": "adc94d6b90d68c45210c1961e59cdd75a9f97d6f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHP-on-Couch/PHP-on-Couch/zipball/adc94d6b90d68c45210c1961e59cdd75a9f97d6f",
+            "reference": "adc94d6b90d68c45210c1961e59cdd75a9f97d6f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "require-dev": {
+            "phpcheckstyle/phpcheckstyle": "*",
+            "phpunit/phpunit": "5.5.*"
+        },
+        "time": "2017-05-24 16:40:15",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPOnCouch\\": "src/",
+                "PHPOnCouch\\Exceptions\\": "src/Exceptions/",
+                "PHPOnCouch\\Adapter\\": "src/Adapter/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv3"
+        ],
+        "authors": [
+            {
+                "name": "Michael Bailly",
+                "email": "mickael.bailly@free.fr",
+                "homepage": "https://github.com/dready92/",
+                "role": "Developer"
+            },
+            {
+                "name": "Clemens Sahs",
+                "email": "clemens.sahs@slides-worker.org",
+                "homepage": "https://github.com/ClemensSahs",
+                "role": "Developer"
+            },
+            {
+                "name": "Alexis Côté",
+                "email": "alexiscote19@hotmail.com",
+                "homepage": "https://popojargo.github.io/",
+                "role": "Developer"
+            }
+        ],
+        "description": "CouchDB NoSQL database access in PHP",
+        "homepage": "https://github.com/PHP-on-Couch/PHP-on-Couch",
+        "keywords": [
+            "apache",
+            "couch",
+            "couchdb",
+            "db",
+            "driver",
+            "nosql"
+        ]
+    }
+]
