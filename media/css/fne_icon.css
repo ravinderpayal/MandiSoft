@@ -1,0 +1,100 @@
+@charset "utf-8";
+/****fne_icons*/
+@font-face {
+  font-family: 'fne';
+  src: url('../font/1.eot');
+  src: url('../font/1.eot') format('embedded-opentype'),
+       url('../font/1.woff') format('woff'),
+       url('../font/1.ttf') format('truetype'),
+       url('../font/1.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fne';
+    src: url('fontello.svg') format('svg');
+  }
+}
+@keyframes CRotate{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+@-webkit-keyframes CRotate{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+[class^="i_f_"]:before, [class*=" i_f_"]:before {font-family: "fne";  font-style: normal;  font-weight: normal;  speak: none;  display: inline-block;  text-decoration: inherit;  width:1em;  margin-right: .2em;  text-align: center;  font-variant:normal;  text-transform:none;line-height:1em;  margin-left: .2em;  font-size: 100%;  text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);transition:all linear 0.4s;-webkit-transition:all linear 0.4s;-moz-transition:all linear 0.4s;-o-transition:all linear 0.4s;cursor:pointer;}
+.i_f_user:before{content:'\E80A'}
+.i_f_hammer:before{content:'\E846'}
+.i_f_doctor:before{content:'\E84F'}
+.i_f_bell:before{content:'\E81B'}.i_f_bell.fcd:before{content:'\E81C'}
+.i_f_mobile:before{content:'\E85D'}
+.i_f_mail:before{content:'\E801'}
+.i_f_group:before{content:'\E835'}
+.i_f_lock:before{content:'\E820'}
+.i_f_shield:before{content:'\E84E'}
+.i_f_unlock:before{content:'\E821'}
+.i_f_loc:before{content:'\E862'}
+.i_f_file:before{content:'\E82A'}
+.i_f_cloud:before{content:'\E865'}
+.i_f_direction:before{content:'\E877';color:#777;}
+.i_f_direction_R:before{content:'\E877';color:#777;transform:rotate(180deg);}
+.i_f_img:before{content:'\E859'}
+.i_f_vid:before{content:'\E80F'}
+.i_f_camera:before{content:'\E85A'}
+.i_f_smile:before{content:'\E842'}
+.i_f_spin_l:before{content:'\E875';animation:CRotate linear 0.7s infinite;-moz-animation:CRotate linear 0.7s infinite;-webkit-animation:CRotate linear 0.7s infinite;}
+.i_f_spin_C:before{content:'\E85F';animation:CRotate linear 1.2s infinite;-moz-animation:CRotate linear 1.2s infinite;-webkit-animation:CRotate linear 1.2s infinite;}
+.i_f_show:before{content:'\E864'}
+.i_f_hide:before{content:'\E863'}
+.i_f_heart:before{content:'\E838'}.i_f_heart:hover:before{content:'\E837'}
+.i_f_heart_a:before{content:'\E837'}
+.i_f_like:before{content:'\E815'}
+.i_f_dislike:before{content:'\E815';transform:rotate(180deg);}
+.i_f_like_a:before{content:'\E817'}
+.i_f_dislike_a:before{content:'\E818'}
+.i_f_comment:before{content:'\E819'}.i_f_comment_a:before{content:'\E86E'}
+.i_f_gender_M:before{content:'\E80C'}
+.i_f_gender_F:before{content:'\E80D'}
+.i_f_home:before{content:'\E85C'}
+.i_f_diary:before{content:'\E866'}
+.i_f_peoples:before{content:'\E80B'}
+.i_f_peoples_e:before{content:'\E86C'}.i_f_peoples_e.fcd:before{content:'\E86D'}
+.i_f_proples_add:before{content:'\E83C'}
+.i_f_updates:before{content:'\E83B'}
+.i_f_star:before{content:'\E807'}
+.i_f_notes:before{content:'\E871'}
+.i_f_news:before{content:'\E870'}
+.i_f_polls:before{content:'\E856'}
+.i_f_message:before{content:'\E81A'}.i_f_message.fcd:before{content:'\E86E'}
+.i_f_chat:before{content:'\E86A'}
+.i_f_setting:before{content:'\E86B'}
+.i_f_logout:before{content:'\E84B'}
+.i_f_menu:before{content:'\E828'}
+.i_f_web:before{content:'\E873'}
+.i_f_money:before{content:'\E849'}
+.i_f_inr:before{content:'\E836'}
+.i_f_search:before{content:'\E800'}
+.i_f_male:before{content:'\E80C'}
+.i_f_female:before{content:'\E80D'}
+.i_f_ware-house:before{content:'\E874'}
+.i_f_warning:before{content:'\E876';color:red;}
+.i_f_rctick:before{content:'\E826';/*color:green;*/}
+.i_f_rtick:before{content:'\E824';}
+.i_f_arrow_ud:before{content:'\E852';}
+.i_f_pen:before{content:'\E87A';}
+.i_f_clock:before{content:'\E872';}
+.i_f_close:before{content:'\E879'}.i_f_close:hover:before{content:'\E878'}
+i_f_close_blank:before{content:'\E878'}
+.i_f_rocket:before{content:'\E83F'}
+.i_f_rocket_R:before{content:'\E853'}
+.i_f_shop:before{content:"\E869"}
+
+.i_f_re:before{
+	content:"\E831";
+}
+.i_f_music:before{content:"\E861"}
+.i_f_play:before{content:"\E833"}
+.i_f_refresh:before{content:"\E832"}
+.alb_m_inp_i_p{position:absolute;top: 0.2em;left: 0.3em;font-size: 1.5em;color: #FFF;}
